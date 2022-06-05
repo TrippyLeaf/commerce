@@ -15,7 +15,7 @@ const SignUpView: FC<Props> = () => {
   const [lastName, setLastName] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
-  const [dirty, setDirty] = useState(false)
+  const [dirty, setDirty] = useState(true)
   const [disabled, setDisabled] = useState(false)
 
   const signup = useSignup()
