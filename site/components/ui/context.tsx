@@ -11,9 +11,9 @@ export interface State {
 }
 
 const initialState = {
-  displaySidebar: false,
-  displayDropdown: false,
-  displayModal: false,
+  displaySidebar: true,
+  displayDropdown: true,
+  displayModal: true,
   modalView: 'LOGIN_VIEW',
   sidebarView: 'CART_VIEW',
   userAvatar: '',
