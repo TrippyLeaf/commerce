@@ -2,9 +2,9 @@
   "provider": "local",
   "features": {
     "wishlist": false,
-    "cart": false,
-    "search": false,
-    "customerAuth": false,
-    "customCheckout": false
+    "cart": true,
+    "search": true,
+    "customerAuth": true,
+    "customCheckout": true
   }
 }
